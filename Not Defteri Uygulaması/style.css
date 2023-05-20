@@ -1,0 +1,62 @@
+
+  .tamamlanmis{
+    color: rgb(180, 47, 47);
+   text-decoration: line-through;
+}
+
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(39, 4, 4, 0.2);
+    background-color: #18338f;
+    color: aliceblue;
+  }
+  
+  h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li span {
+    position: relative;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  li span i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    color: #ff6961;
+  }
+  
+  li span:hover {
+    text-decoration: line-through;
+  }
+  
